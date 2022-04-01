@@ -1,6 +1,6 @@
 .Master{
   padding-right: 30px;
-  padding-left: 30px;
+  padding-left: 30px; 
 }
 
 .navbar{
@@ -11,7 +11,7 @@
   align-items: center;
   padding-left: 20px;
   padding-right: 20px;
-  justify-content: space-between
+  justify-content: space-between;
 }
 
 
@@ -40,6 +40,7 @@
   background-color: #008327 !important;
   width: auto;
   margin: 8px !important;
+  margin-right: 0px !important;
 }
 
 .inverted{
@@ -55,7 +56,7 @@
 }
 
 .navbar-brand{
-  padding-right:5px;
+  padding-right:10px;
   padding-left:5px;
   height: 100%;
   display: flex;

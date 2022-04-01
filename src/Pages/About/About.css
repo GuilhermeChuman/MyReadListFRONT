@@ -1,0 +1,40 @@
+.profile{
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+    
+}
+
+.desc{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin-left: 10px;
+    color:#008327;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.desc a{
+    color:#008327;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.img1{
+    width: 100px;
+    height: 100px;
+    background-image: url('/res/photoDev1.jpg');
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-size: 100px 100px;
+}
+
+.img2{
+    width: 100px;
+    height: 100px;
+    background-image: url('/res/photoDev2.png');
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-size: 100px 100px;
+}

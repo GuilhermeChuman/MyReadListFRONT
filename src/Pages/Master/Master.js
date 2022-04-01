@@ -16,6 +16,7 @@ import {
 //Pages
 import Login from '../Login/Login';
 import Home from '../Home/Home';
+import About from '../About/About';
 
 function Master() {
   return (
@@ -38,10 +39,9 @@ function Master() {
 
       <Navbar bg="dark" variant="dark">
         <Container>
-            <Navbar.Brand href="#home">Melhores Livros</Navbar.Brand>
-            <Navbar.Brand href="#home">Forum</Navbar.Brand>
-            <Navbar.Brand href="#home">Notícias</Navbar.Brand>
-            <Navbar.Brand href="#home">Sobre</Navbar.Brand>
+            <Navbar.Brand href="/TopBooks">Melhores Livros</Navbar.Brand>
+            <Navbar.Brand href="/BookCalc">Calculadora de Tempo</Navbar.Brand>
+            <Navbar.Brand href="/About">Sobre</Navbar.Brand>
         </Container>
 
         <Form className="search">
@@ -57,7 +57,9 @@ function Master() {
           <Routes>
             <Route path="/Login" element={<Login />}>
             </Route>
-            <Route path="/" element={<Home />}>
+            <Route path="/Home" element={<Home />}>
+            </Route>
+            <Route path="/About" element={<About />}>
             </Route>
           </Routes>
         </BrowserRouter>
