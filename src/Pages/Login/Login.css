@@ -1,0 +1,49 @@
+.App{
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  font-size: calc(10px + 2vmin);
+  width: 100%;
+}
+
+.LoginFrame{
+  margin-top: 30px;
+  background-color: white;
+  border-radius: 10px;
+  border: solid;
+  border-color: #008327;
+  border-width: 2px;
+  padding: 20px;
+  flex-direction: column; 
+  display: flex;  
+
+}
+.Label{
+  margin-top: 0px !important; 
+  margin-bottom: 5px !important;
+  text-align: center;
+  color: #008327
+}
+
+.Button{
+  margin: 8px !important;
+  margin-bottom: 4px !important;
+  margin-top: 20px !important;
+  background-color: #008327 !important;
+  width: 70%;
+  align-self: center;
+}
+
+.ForgotLink{
+  font-size: 12px;
+  text-align: center;
+  color: #008327
+}
+
+.GroupButtons{
+  margin-top: 25px;
+  flex-direction: column; 
+  display: flex;  
+}
